@@ -1,3 +1,11 @@
+# Fork of Vault for Web Token Identity Support
+
+We needed to deploy a vault:1.3.2 image with
+[19d2a24d...](https://github.com/hashicorp/vault/commit/19d2a24d9975de089c06fd25d5fda736258386c4)
+applied. This is a very naive fork to accomplish that.
+
+To be deleted once a Vault that includes web token identity is released.
+
 # Vault [![CircleCI](https://circleci.com/gh/hashicorp/vault.svg?style=svg)](https://circleci.com/gh/hashicorp/vault) [![Join the chat at https://gitter.im/hashicorp-vault/Lobby](https://badges.gitter.im/hashicorp-vault/Lobby.svg)](https://gitter.im/hashicorp-vault/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![vault enterprise](https://img.shields.io/badge/vault-enterprise-yellow.svg?colorB=7c8797&colorA=000000)](https://www.hashicorp.com/products/vault/?utm_source=github&utm_medium=banner&utm_campaign=github-vault-enterprise)
 
 ----
