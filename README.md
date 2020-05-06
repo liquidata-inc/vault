@@ -1,7 +1,8 @@
 # Fork of Vault for Web Token Identity Support
 
-We needed to deploy a vault:1.3.2 image with
-[19d2a24d...](https://github.com/hashicorp/vault/commit/19d2a24d9975de089c06fd25d5fda736258386c4)
+We needed to deploy a vault:1.3.2 image with:
+* [19d2a24d...](https://github.com/hashicorp/vault/commit/19d2a24d9975de089c06fd25d5fda736258386c4)
+* [e1c0a1c9...](https://github.com/hashicorp/vault/commit/e1c0a1c95911621a249292a302571c19a93361f1)
 applied. This is a very naive fork to accomplish that.
 
 To be deleted once a Vault that includes web token identity is released.
