@@ -1,6 +1,8 @@
 package seal
 
 import (
+	"path"
+
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/builtin/logical/transit"
@@ -12,7 +14,6 @@ import (
 	"github.com/hashicorp/vault/vault"
 	seal2 "github.com/hashicorp/vault/vault/seal"
 	"github.com/mitchellh/go-testing-interface"
-	"path"
 )
 
 type TransitSealServer struct {
